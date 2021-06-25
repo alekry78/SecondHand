@@ -41,7 +41,7 @@ const HomeHeader = () => {
                         <Anchor to="About" activeClass="active" smooth={true} duration={500} offset={0} onSetActive={handleSetActive}>
                             O nas
                         </Anchor>
-                        <Anchor to="test1" activeClass="active" smooth={true} duration={500} offset={0} onSetActive={handleSetActive}>
+                        <Anchor to="Help" activeClass="active" smooth={true} duration={500} offset={0} onSetActive={handleSetActive}>
                             Fundacja i organizacje
                         </Anchor>
                         <Anchor to="test1" activeClass="active" smooth={true} duration={500} offset={0} onSetActive={handleSetActive}>

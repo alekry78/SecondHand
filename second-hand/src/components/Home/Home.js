@@ -4,6 +4,8 @@ import {Main} from "./Home.styles";
 import HomeColumns from "./HomeColumns/HomeColumns";
 import HomeEasySteps from "./HomeEasySteps/HomeEasySteps";
 import HomeAbout from "./HomeAbout/HomeAbout";
+import HomePages from "./HomePages/HomePages";
+import HomeContact from "./HomeContact/HomeContact";
 
 const Home = () => {
     return(
@@ -12,6 +14,8 @@ const Home = () => {
           <HomeColumns />
           <HomeEasySteps />
           <HomeAbout />
+          <HomePages />
+          <HomeContact />
       </Main>
     )
 };

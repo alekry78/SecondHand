@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,6 +56,10 @@
       <workItem from="1623965334671" duration="78000" />
       <workItem from="1624067884820" duration="17000" />
       <workItem from="1624282014165" duration="19709000" />
+      <workItem from="1624344011481" duration="411000" />
+      <workItem from="1624426590618" duration="702000" />
+      <workItem from="1624448229057" duration="526000" />
+      <workItem from="1624641932632" duration="5000" />
     </task>
     <servers />
   </component>

@@ -20,7 +20,6 @@ export const Title = styled.h1`
 export const Steps = styled.div`
   display:flex;
   justify-content:center;
-  
   align-items:center;
   width:100%;
   background-color:${({theme})=>theme.color.white};
@@ -32,9 +31,8 @@ export const Step = styled.div`
   justify-content:center;
   align-items:center;
   svg{
-    color:black;
+    fill:black;
     margin:20px;
-    overflow: visible;
   }
 `
 export const SmallTitle = styled.span`

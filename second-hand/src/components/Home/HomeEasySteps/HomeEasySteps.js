@@ -1,13 +1,10 @@
 import React from 'react';
-import {Element} from 'react-scroll'
 import {Button, Desc, EasySteps, Line, SmallTitle, Step, Steps, Title} from "./HomeEasySteps.styles";
 import {ReactComponent as Decoration} from "../../../assets/Decoration.svg";
-import {ReactComponent as Shirt} from "../../../assets/Icon1.svg";
-import {ReactComponent as Bag} from "../../../assets/Icon2.svg";
-import {ReactComponent as Search} from "../../../assets/Icon3.svg";
-import {ReactComponent as Transport} from "../../../assets/Icon4.svg";
-
-
+import {ReactComponent as Icon1} from "../../../assets/Icon1.svg";
+import {ReactComponent as Icon2} from "../../../assets/Icon2.svg";
+import {ReactComponent as Icon3} from "../../../assets/Icon3.svg";
+import {ReactComponent as Icon4} from "../../../assets/Icon4.svg";
 const HomeEasySteps = () => {
     return (
         <EasySteps name="Steps">
@@ -17,7 +14,7 @@ const HomeEasySteps = () => {
             <Decoration/>
             <Steps>
                 <Step>
-                    <Shirt />
+                    <Icon1 />
                     <SmallTitle>
                         Wybierz rzeczy
                     </SmallTitle>
@@ -27,7 +24,7 @@ const HomeEasySteps = () => {
                     </Desc>
                 </Step>
                 <Step>
-                    <Bag />
+                    <Icon2 />
                     <SmallTitle>
                         Spakuj je
                     </SmallTitle>
@@ -37,7 +34,7 @@ const HomeEasySteps = () => {
                     </Desc>
                 </Step>
                 <Step>
-                    <Search />
+                    <Icon3 />
                     <SmallTitle>
                         Zdecyduj komu <br /> chcesz pomóc
                     </SmallTitle>
@@ -47,7 +44,7 @@ const HomeEasySteps = () => {
                     </Desc>
                 </Step>
                 <Step>
-                    <Transport />
+                    <Icon4 />
                     <SmallTitle>
                         Zamów kuriera
                     </SmallTitle>
