@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-
+import yellowbackground from "../../../assets/yellowbackground.PNG";
 export const Columns = styled.section`
   width:100%;
-  background-color:${({theme})=>theme.color.yellow};
+  background-image:url(${yellowbackground});
   display:flex;
   justify-content:space-around;
   align-items:center;

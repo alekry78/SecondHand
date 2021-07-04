@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {
     Desc,
     HelpContainer,
@@ -6,7 +6,7 @@ import {
     Organization,
     OrganizationDesc,
     OrganizationName,
-    Organizations, Page, Pages, Stuff
+    Organizations, Stuff
 } from "./HomePages.styles";
 const HomePagesLocal = () => {
     return(

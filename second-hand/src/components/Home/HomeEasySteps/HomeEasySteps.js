@@ -1,20 +1,20 @@
 import React from 'react';
 import {Button, Desc, EasySteps, Line, SmallTitle, Step, Steps, Title} from "./HomeEasySteps.styles";
 import {ReactComponent as Decoration} from "../../../assets/Decoration.svg";
-import {ReactComponent as Icon1} from "../../../assets/Icon1.svg";
-import {ReactComponent as Icon2} from "../../../assets/Icon2.svg";
-import {ReactComponent as Icon3} from "../../../assets/Icon3.svg";
-import {ReactComponent as Icon4} from "../../../assets/Icon4.svg";
+import Icon1 from "../../../assets/Icon1.svg";
+import Icon2 from "../../../assets/Icon2.svg";
+import Icon3 from "../../../assets/Icon3.svg";
+import Icon4 from "../../../assets/Icon4.svg";
 const HomeEasySteps = () => {
     return (
-        <EasySteps name="Steps">
+        <EasySteps name="Steps" id="Steps">
             <Title>
                 Wystarczą 4 proste kroki
             </Title>
             <Decoration/>
             <Steps>
                 <Step>
-                    <Icon1 />
+                    <img src={Icon1} alt="Ikona 1"/>
                     <SmallTitle>
                         Wybierz rzeczy
                     </SmallTitle>
@@ -24,7 +24,7 @@ const HomeEasySteps = () => {
                     </Desc>
                 </Step>
                 <Step>
-                    <Icon2 />
+                    <img src={Icon2 } alt="Ikona 2"/>
                     <SmallTitle>
                         Spakuj je
                     </SmallTitle>
@@ -34,7 +34,7 @@ const HomeEasySteps = () => {
                     </Desc>
                 </Step>
                 <Step>
-                    <Icon3 />
+                    <img src={Icon3 } alt="Ikona 3"/>
                     <SmallTitle>
                         Zdecyduj komu <br /> chcesz pomóc
                     </SmallTitle>
@@ -44,7 +44,7 @@ const HomeEasySteps = () => {
                     </Desc>
                 </Step>
                 <Step>
-                    <Icon4 />
+                    <img src={Icon4 } alt="Ikona 4"/>
                     <SmallTitle>
                         Zamów kuriera
                     </SmallTitle>

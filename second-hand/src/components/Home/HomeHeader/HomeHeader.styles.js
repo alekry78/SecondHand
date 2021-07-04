@@ -43,6 +43,8 @@ export const Navigation = styled.nav`
   display:flex;
   justify-content:center;
   align-items:center;
+  align-self:flex-end;
+  margin-right:40px;
 `
 export const Anchor = styled(Link)`
   font-size:20px;

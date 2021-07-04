@@ -10,7 +10,7 @@ const HomePages = () => {
         setActive(num);
     }
     return(
-        <Container name="Help">
+        <Container name="Help" id="Help">
             <Title>
               Komu pomagamy?
             </Title>

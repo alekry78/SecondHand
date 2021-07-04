@@ -17,7 +17,7 @@ export const About = styled.div`
   svg{
     margin:40px 0 60px 0;
   }
-  span+svg{
+  span+img{
     align-self:flex-end;
   }
   padding:80px 100px;

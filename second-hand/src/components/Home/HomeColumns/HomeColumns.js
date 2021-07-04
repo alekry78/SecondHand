@@ -2,7 +2,7 @@ import React from 'react';
 import {Column, Columns, Counter, Desc, Title} from "./HomeColumns.styles";
 const HomeColumns = () => {
     return(
-            <Columns>
+            <Columns id="Columns">
                 <Column>
                     <Counter>
                         10
